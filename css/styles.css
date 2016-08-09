@@ -9,10 +9,20 @@ p{
   margin-top: 25%;
 }
 .jumbotron{
+  padding-top: 20%;
+  padding-bottom: 20%;
   background-image: url(../img/paper.jpg);
   background-position: bottom left;
 }
 
 .carousel-indicators li{
-  background-color: yellow;
+  background-color: crimson;
+}
+
+.carousel-indicators img{
+  display: none;
+}
+
+.carousel-indicators .active img{
+  display: block;
 }
