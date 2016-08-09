@@ -14,9 +14,7 @@ $(function(){
     $("h2").show();
     $("p").hide();
   });
-  $("li.active").click(function() {
-    $("li.active").toggleClass("pacman");
-  });
+  
   $(".carousel-indicators").click(function(){
     $("h2").show();
     $("p").hide();
