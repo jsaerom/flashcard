@@ -5,3 +5,14 @@ body{
 p{
   display: none;
 }
+.container{
+  margin-top: 25%;
+}
+.jumbotron{
+  background-image: url(../img/paper.jpg);
+  background-position: bottom left;
+}
+
+.carousel-indicators li{
+  background-color: yellow;
+}
